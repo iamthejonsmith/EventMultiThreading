@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F78BBEC1B7CF12100D8BB06 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F78BBEB1B7CF12100D8BB06 /* MBProgressHUD.m */; };
+		9F7EC3D81B7CFEC600C761C3 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EC3D71B7CFEC600C761C3 /* EventDetailViewController.m */; };
 		9F7FFA431B7CC37A008CFBB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FFA421B7CC37A008CFBB7 /* main.m */; };
 		9F7FFA461B7CC37A008CFBB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FFA451B7CC37A008CFBB7 /* AppDelegate.m */; };
-		9F7FFA491B7CC37A008CFBB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FFA481B7CC37A008CFBB7 /* ViewController.m */; };
+		9F7FFA491B7CC37A008CFBB7 /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FFA481B7CC37A008CFBB7 /* EventListViewController.m */; };
 		9F7FFA4C1B7CC37A008CFBB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7FFA4A1B7CC37A008CFBB7 /* Main.storyboard */; };
 		9F7FFA4E1B7CC37A008CFBB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7FFA4D1B7CC37A008CFBB7 /* Images.xcassets */; };
 		9F7FFA511B7CC37A008CFBB7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7FFA4F1B7CC37A008CFBB7 /* LaunchScreen.xib */; };
 		9F7FFA5D1B7CC37A008CFBB7 /* EventMultiThreadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FFA5C1B7CC37A008CFBB7 /* EventMultiThreadingTests.m */; };
+		9F7FFA681B7CD4B7008CFBB7 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7FFA671B7CD4B7008CFBB7 /* Event.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +30,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F78BBEA1B7CF12100D8BB06 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9F78BBEB1B7CF12100D8BB06 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9F7EC3D61B7CFEC600C761C3 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		9F7EC3D71B7CFEC600C761C3 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
 		9F7FFA3D1B7CC37A008CFBB7 /* EventMultiThreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventMultiThreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7FFA411B7CC37A008CFBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F7FFA421B7CC37A008CFBB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F7FFA441B7CC37A008CFBB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F7FFA451B7CC37A008CFBB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F7FFA471B7CC37A008CFBB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F7FFA481B7CC37A008CFBB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F7FFA471B7CC37A008CFBB7 /* EventListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventListViewController.h; sourceTree = "<group>"; };
+		9F7FFA481B7CC37A008CFBB7 /* EventListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventListViewController.m; sourceTree = "<group>"; };
 		9F7FFA4B1B7CC37A008CFBB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F7FFA4D1B7CC37A008CFBB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9F7FFA501B7CC37A008CFBB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9F7FFA561B7CC37A008CFBB7 /* EventMultiThreadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventMultiThreadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7FFA5B1B7CC37A008CFBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F7FFA5C1B7CC37A008CFBB7 /* EventMultiThreadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventMultiThreadingTests.m; sourceTree = "<group>"; };
+		9F7FFA661B7CD4B7008CFBB7 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		9F7FFA671B7CD4B7008CFBB7 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F78BBED1B7CF12E00D8BB06 /* Progress Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				9F78BBEA1B7CF12100D8BB06 /* MBProgressHUD.h */,
+				9F78BBEB1B7CF12100D8BB06 /* MBProgressHUD.m */,
+			);
+			name = "Progress Indicator";
+			sourceTree = "<group>";
+		};
 		9F7FFA341B7CC37A008CFBB7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +99,10 @@
 		9F7FFA3F1B7CC37A008CFBB7 /* EventMultiThreading */ = {
 			isa = PBXGroup;
 			children = (
-				9F7FFA441B7CC37A008CFBB7 /* AppDelegate.h */,
-				9F7FFA451B7CC37A008CFBB7 /* AppDelegate.m */,
-				9F7FFA471B7CC37A008CFBB7 /* ViewController.h */,
-				9F7FFA481B7CC37A008CFBB7 /* ViewController.m */,
+				9F78BBED1B7CF12E00D8BB06 /* Progress Indicator */,
+				9F7FFA6B1B7CD62B008CFBB7 /* Delegate Files */,
+				9F7FFA691B7CD612008CFBB7 /* Event Objects */,
+				9F7FFA6A1B7CD61F008CFBB7 /* View Controllers */,
 				9F7FFA4A1B7CC37A008CFBB7 /* Main.storyboard */,
 				9F7FFA4D1B7CC37A008CFBB7 /* Images.xcassets */,
 				9F7FFA4F1B7CC37A008CFBB7 /* LaunchScreen.xib */,
@@ -117,6 +135,35 @@
 				9F7FFA5B1B7CC37A008CFBB7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F7FFA691B7CD612008CFBB7 /* Event Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9F7FFA661B7CD4B7008CFBB7 /* Event.h */,
+				9F7FFA671B7CD4B7008CFBB7 /* Event.m */,
+			);
+			name = "Event Objects";
+			sourceTree = "<group>";
+		};
+		9F7FFA6A1B7CD61F008CFBB7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F7FFA471B7CC37A008CFBB7 /* EventListViewController.h */,
+				9F7FFA481B7CC37A008CFBB7 /* EventListViewController.m */,
+				9F7EC3D61B7CFEC600C761C3 /* EventDetailViewController.h */,
+				9F7EC3D71B7CFEC600C761C3 /* EventDetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9F7FFA6B1B7CD62B008CFBB7 /* Delegate Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F7FFA441B7CC37A008CFBB7 /* AppDelegate.h */,
+				9F7FFA451B7CC37A008CFBB7 /* AppDelegate.m */,
+			);
+			name = "Delegate Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +215,7 @@
 				TargetAttributes = {
 					9F7FFA3C1B7CC37A008CFBB7 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = NCUCU8Q7HZ;
 					};
 					9F7FFA551B7CC37A008CFBB7 = {
 						CreatedOnToolsVersion = 6.4;
@@ -219,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F7FFA491B7CC37A008CFBB7 /* ViewController.m in Sources */,
+				9F7EC3D81B7CFEC600C761C3 /* EventDetailViewController.m in Sources */,
+				9F7FFA681B7CD4B7008CFBB7 /* Event.m in Sources */,
+				9F7FFA491B7CC37A008CFBB7 /* EventListViewController.m in Sources */,
+				9F78BBEC1B7CF12100D8BB06 /* MBProgressHUD.m in Sources */,
 				9F7FFA461B7CC37A008CFBB7 /* AppDelegate.m in Sources */,
 				9F7FFA431B7CC37A008CFBB7 /* main.m in Sources */,
 			);
@@ -349,9 +400,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = EventMultiThreading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -359,9 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = EventMultiThreading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -418,6 +477,7 @@
 				9F7FFA621B7CC37A008CFBB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F7FFA631B7CC37A008CFBB7 /* Build configuration list for PBXNativeTarget "EventMultiThreadingTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +486,7 @@
 				9F7FFA651B7CC37A008CFBB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
